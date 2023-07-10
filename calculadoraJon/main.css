@@ -1,0 +1,75 @@
+html{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+}
+
+
+.principal{
+   height: 220px;
+   width: 180px;
+   background-color: rgb(190, 186, 186);
+   border: 5px;
+   border: 3px solid rgb(165, 161, 161);
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+    padding-top: 5px;
+    justify-content: center;
+}
+
+.principal input[type=text]{
+    font-size: 20px;
+    border: 1px;
+    border-style: groove;
+    width: 90%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: end;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+}
+
+.principal input[type=button]{
+    padding: 5px;
+    width: 35px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+.principal input[type=reset]{
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+    margin-left: 5px;
+    
+}
+
+#zero{
+    width: 80px;
+}
+
+#point{
+    width: 79px;
+    font-weight: 700;
+}
+
+[type=reset] a:hover{
+    background-color: blue;
+}
